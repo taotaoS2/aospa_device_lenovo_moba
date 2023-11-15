@@ -169,6 +169,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     MobaFrameworks \
+    MobaSystemUI \
     FrameworksResTarget \
     WifiResTarget
 
