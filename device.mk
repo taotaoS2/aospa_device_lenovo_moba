@@ -146,6 +146,9 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     fstab.default \
+    init.lenovo.rc \
+    init.lenovo.common.rc \
+    init.lenovo.usb.configfs.rc \
     init.qti.dcvs.sh \
     init.target.rc
 

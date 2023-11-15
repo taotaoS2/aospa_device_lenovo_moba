@@ -13,8 +13,29 @@
 // limitations under the License.
 
 prebuilt_etc {
-    name: "fstab.qcom",
-    src: "fstab.qcom",
+    name: "fstab.default",
+    src: "fstab.default",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.lenovo.common.rc",
+    src: "etc/init.lenovo.common.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.lenovo.rc",
+    src: "etc/init.lenovo.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.lenovo.usb.configfs.rc",
+    src: "etc/init.lenovo.usb.configfs.rc",
+    sub_dir: "init/hw",
     vendor: true,
 }
 
