@@ -142,10 +142,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Init
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_RAMDISK)/fstab.qcom
+    $(LOCAL_PATH)/init/fstab.default:$(TARGET_COPY_OUT_RAMDISK)/fstab.default
 
 PRODUCT_PACKAGES += \
-    fstab.qcom \
+    fstab.default \
     init.qti.dcvs.sh \
     init.target.rc
 
